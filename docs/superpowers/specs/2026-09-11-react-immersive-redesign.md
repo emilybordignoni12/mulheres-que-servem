@@ -21,6 +21,7 @@ O resultado continuará sendo um site estático compatível com GitHub Pages. O 
 ## Interações e movimento
 
 - Entrada progressiva de títulos, textos e imagens durante a rolagem.
+- Uma linha de progresso e mudanças graduais de profundidade responderão continuamente à posição da rolagem, fazendo a narrativa avançar junto com a visitante.
 - Parallax leve e seguro apenas em elementos decorativos.
 - Cards dos módulos com expansão para revelar os tópicos, resposta a hover no desktop e toque no celular.
 - FAQ animado com apenas uma resposta aberta por vez.
