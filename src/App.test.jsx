@@ -28,4 +28,13 @@ describe('App', () => {
     expect(screen.getByRole('img', { name: /comunidade acessada pelo celular/i })).toBeInTheDocument()
     expect(screen.getByRole('img', { name: /comunidade acessada pelo computador/i })).toBeInTheDocument()
   })
+
+  it('oferece suporte para dúvidas pelo WhatsApp da Emily', () => {
+    render(<App />)
+    const suporte = screen.getByRole('link', { name: /dúvidas.*fale comigo pelo whatsapp/i })
+
+    expect(suporte).toHaveAttribute('href', expect.stringContaining('wa.me/5517996649423'))
+    expect(suporte).toHaveAttribute('href', expect.stringContaining('Tenho%20uma%20d%C3%BAvida'))
+    expect(suporte).toHaveAttribute('target', '_blank')
+  })
 })
