@@ -1,5 +1,15 @@
 # Design QA
 
+## Redesign React imersivo
+
+- Primeira dobra: composição, texto, navegação, imagem e CTA preservados em relação ao canvas aprovado.
+- Tipografia: contraste editorial entre títulos serifados e textos funcionais mantido.
+- Paleta: vinho, dourado, creme e espresso preservados sem filtros que prejudiquem as fotografias.
+- Movimento: progresso de leitura, revelações, parallax leve e expansões respondem à rolagem, foco, hover e toque.
+- Mobile: verificado em 390 × 844, sem overflow horizontal e com CTA principal visível.
+- Interações: módulos e FAQ atualizam `aria-expanded`; checkout, e-book e Instagram permanecem acessíveis.
+- Imagens: nenhum recurso quebrado na verificação do navegador.
+
 - Referência: as três artes de canvas fornecidas pela usuária.
 - Implementação: cada arte é exibida integralmente, em ordem, com `width: 100%` e `height: auto`.
 - Fidelidade: não há reconstrução, recorte, sobreposição visual ou alteração de proporção.

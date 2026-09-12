@@ -2,9 +2,13 @@
 
 Landing page de apresentação da comunidade de Emily Bordignoni.
 
-## Visualização
+## Desenvolvimento
 
-Abra `index.html` em um navegador. Para testar localmente com todos os recursos, sirva esta pasta por um servidor estático.
+O site usa React, Vite, Tailwind CSS e Motion. Execute `pnpm install` e `pnpm dev` para desenvolvimento; `pnpm build` gera a versão publicada em `dist`.
+
+## Experiência
+
+A interface possui progresso de leitura, revelações e parallax orientados pela rolagem, módulos e FAQ interativos, navegação por teclado e comportamento adaptado a movimento reduzido.
 
 ## Destinos configurados
 
