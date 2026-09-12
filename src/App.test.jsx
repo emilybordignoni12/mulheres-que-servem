@@ -3,6 +3,12 @@ import { describe, expect, it } from 'vitest'
 import App from './App'
 
 describe('App', () => {
+  it('abre a jornada com um jardim que floresce antes do conteúdo', () => {
+    render(<App />)
+    expect(screen.getByRole('heading', { name: /você não foi feita para florescer sozinha/i })).toBeInTheDocument()
+    expect(screen.getAllByTestId('bloom-flower')).toHaveLength(5)
+  })
+
   it('apresenta a primeira dobra, navegação e checkout', () => {
     render(<App />)
     expect(screen.getByRole('heading', { name: /você não foi chamada/i })).toBeInTheDocument()

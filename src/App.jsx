@@ -11,8 +11,9 @@ import { Offer } from './components/Offer'
 import { siteContent } from './content/siteContent'
 import { buildCheckoutUrl } from './lib/checkout'
 import { ScrollProgress } from './motion/ScrollProgress'
+import { BloomIntro } from './motion/BloomIntro'
 
 export default function App() {
   const checkout = buildCheckoutUrl(siteContent.checkoutUrl, typeof window === 'undefined' ? '' : window.location.search)
-  return <><ScrollProgress /><Header checkout={checkout} /><main id="conteudo"><Hero checkout={checkout} /><Calling /><Journey /><Modules modules={siteContent.modules} /><Devotional ebookUrl={siteContent.ebookUrl} /><Emily instagramUrl={siteContent.instagramUrl} /><Offer checkout={checkout} /><FAQ items={siteContent.faq} /></main><Footer /></>
+  return <><ScrollProgress /><BloomIntro /><div className="site-shell"><Header checkout={checkout} /><main id="conteudo"><Hero checkout={checkout} /><Calling /><Journey /><Modules modules={siteContent.modules} /><Devotional ebookUrl={siteContent.ebookUrl} /><Emily instagramUrl={siteContent.instagramUrl} /><Offer checkout={checkout} /><FAQ items={siteContent.faq} /></main><Footer /></div></>
 }
