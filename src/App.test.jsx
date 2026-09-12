@@ -36,5 +36,6 @@ describe('App', () => {
     expect(suporte).toHaveAttribute('href', expect.stringContaining('wa.me/5517996649423'))
     expect(suporte).toHaveAttribute('href', expect.stringContaining('Tenho%20uma%20d%C3%BAvida'))
     expect(suporte).toHaveAttribute('target', '_blank')
+    expect(suporte.textContent).toBe('')
   })
 })
