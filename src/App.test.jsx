@@ -21,4 +21,11 @@ describe('App', () => {
     expect(screen.getByText(/R\$ 197/)).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /quatro caminhos/i })).toBeInTheDocument()
   })
+
+  it('mostra que a comunidade pode ser acessada pelo celular e computador', () => {
+    render(<App />)
+    expect(screen.getByRole('heading', { name: /sua jornada, onde você estiver/i })).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: /comunidade acessada pelo celular/i })).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: /comunidade acessada pelo computador/i })).toBeInTheDocument()
+  })
 })
