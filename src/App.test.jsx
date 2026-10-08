@@ -18,8 +18,17 @@ describe('App', () => {
 
   it('mantém o conteúdo essencial da oferta', () => {
     render(<App />)
-    expect(screen.getByText(/R\$ 197/)).toBeInTheDocument()
+    expect(screen.getByText(/R\$ 7,70 por mês/)).toBeInTheDocument()
+    expect(screen.getByText(/acesso enquanto a assinatura estiver ativa/i)).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /quatro caminhos/i })).toBeInTheDocument()
+  })
+
+  it('direciona as compras para o novo checkout mensal', () => {
+    render(<App />)
+    const linksDeCompra = screen.getAllByRole('link').filter((link) => /quero fazer parte|entrar para a comunidade/i.test(link.textContent))
+
+    expect(linksDeCompra.length).toBeGreaterThan(0)
+    linksDeCompra.forEach((link) => expect(link).toHaveAttribute('href', 'https://pay.kiwify.com.br/maB6GvF'))
   })
 
   it('mostra que a comunidade pode ser acessada pelo celular e computador', () => {

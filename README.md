@@ -12,7 +12,7 @@ A interface possui progresso de leitura, revelações e parallax orientados pela
 
 ## Destinos configurados
 
-- Compra: https://pay.kiwify.com.br/U4chBa2
+- Compra: https://pay.kiwify.com.br/maB6GvF
 - Devocional gratuito: https://drive.google.com/file/d/145AngcTvZ_COGaTWghNKTkECSkTPYaRQ/view
 - Instagram: https://www.instagram.com/emilybordignoni/
 

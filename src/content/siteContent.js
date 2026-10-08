@@ -1,5 +1,5 @@
 export const siteContent = {
-  checkoutUrl: 'https://pay.kiwify.com.br/U4chBa2',
+  checkoutUrl: 'https://pay.kiwify.com.br/maB6GvF',
   ebookUrl: 'https://drive.google.com/file/d/145AngcTvZ_COGaTWghNKTkECSkTPYaRQ/view',
   instagramUrl: 'https://www.instagram.com/emilybordignoni/',
   modules: [
@@ -13,7 +13,7 @@ export const siteContent = {
     ['A comunidade substitui minha igreja?', 'Não. Mulheres que Servem é uma formação complementar e não substitui a igreja local, o pastoreio ou o discipulado.'],
     ['Sou de outra denominação. Posso participar?', 'Sim. O conteúdo tem base cristã evangélica, mas mulheres de outras denominações podem participar, refletir e examinar os ensinamentos à luz das Escrituras.'],
     ['Como funciona o suporte?', 'O suporte dentro da comunidade é realizado diretamente por Emily, aproximando você de quem preparou e conduz a jornada.'],
-    ['Como funcionam o acesso e a renovação automática?', 'O investimento de R$ 197 libera o acesso por 12 meses. A assinatura possui renovação automática anual, e você pode solicitar o cancelamento quando desejar, conforme as condições da plataforma.'],
+    ['Como funcionam o acesso e a renovação automática?', 'O investimento é de R$ 7,70 por mês. Você mantém o acesso enquanto a assinatura estiver ativa, com renovação automática mensal, e pode solicitar o cancelamento quando desejar, conforme as condições da plataforma.'],
     ['Existe garantia ou reembolso?', 'Sim. A garantia e os pedidos de reembolso seguem as regras e os prazos aplicáveis da Kiwify.'],
     ['Qual é a diferença entre o devocional e a comunidade?', 'O devocional gratuito é uma introdução de 21 dias. A comunidade oferece o aprofundamento nos quatro módulos e uma caminhada mais extensa com suporte.'],
   ],
